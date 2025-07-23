@@ -72,7 +72,7 @@ class TensorboardCallback(BaseCallback):
             self.logger.record(key="train/reward_min", value=None)
             self.logger.record(key="train/reward_mean", value=None)
             self.logger.record(key="train/reward_max", value=None)
-            print("Logging Error:", error)
+            # print("Logging Error:", error)
         return True
 
 
